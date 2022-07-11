@@ -23,6 +23,10 @@ console.log(eid2remaindays)
 console.log(eid3remaindays)
 
 var first = document.getElementById("para1")
+var second = document.getElementById("para2")
+var third = document.getElementById("para3")
 
-first.innerHTM = '<p> ${eid1remaindays} Days remaining </P>';
+first.innerHTML = eid1remaindays +'<p>  Days remaining </P>';
+second.innerHTML = eid2remaindays +'<p>  Days remaining </P>';
+third.innerHTML = eid3remaindays +'<p>  Days remaining </P>';
 
